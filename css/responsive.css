@@ -86,4 +86,14 @@
     .free-trial .free-title{
         font-size: 24px;
     }
+
+    /* faq */
+    .faq-wrapper .accordion-button{
+        font-size: 18px;
+    }
+
+    /* footer */
+    .footer-wrapper .footer-logo img{
+        max-width: 50%;
+    }
 }

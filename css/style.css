@@ -523,3 +523,222 @@ body{
     vertical-align: bottom;
     color: var(--text-yellow);
 }
+
+
+
+/* 8. Reviews */
+.reviews-wrapper{
+    padding: 100px 0;
+    /* background-color: var(--bg-white);  */
+}
+.reviews-wrapper .reviews-heading{
+    font-size: 20px;
+    font-weight: 700;
+    /* line-height: 1.5; */
+    margin-bottom: 5px;
+    color: var(--text-light-3);
+}
+.reviews-wrapper .reviews-title{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 1.25;
+    margin-bottom: 80px;
+    color: var(--text-black);
+}
+.reviews-wrapper .reviews-card{
+    border-radius: 15px;
+    padding: 50px;
+    background-color: var
+    var(--bg-white);
+    box-shadow: 0 5px 40px rgb(0 0 0/ 15%);
+}
+.reviews-wrapper .reviews-card h3{
+    font-family: var(--secondary-font);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    color: var(--text-black);
+}
+.reviews-wrapper .reviews-card .reviews-role{
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 25px;
+    color: var(--text-dark-green);
+}
+.reviews-wrapper .reviews-card .reviews-text{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+
+
+/* 9. Brands */
+.brand-wrapper{
+    padding: 100px 0;
+    background-color: var(--bg-light-2); 
+}
+.brand-wrapper .brand-heading{
+    font-size: 20px;
+    font-weight: 700;
+    /* line-height: 1.5; */
+    margin-bottom: 5px;
+    color: var(--text-light-3);
+}
+.brand-wrapper .brand-title{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 1.25;
+    margin-bottom: 25px;
+    color: var(--text-black);
+}
+.brand-wrapper .showcase_card img{
+    width: 100%;
+    border-radius: 15px;
+    padding: 45px 25px;
+    background-color: var(--bg-white);
+    box-shadow: 0 5px 40px rgb(0 0 0/ 8%);
+    transition: 0.7s;
+}
+.brand-wrapper .showcase_card img:hover{
+    transform: scale(1.2);
+    position: relative;
+    z-index: 2;
+}
+
+
+
+/* 10. FAQs */
+.faq-wrapper{
+    padding: 100px 0 0;
+    /* background-color: var(--bg-light-2);  */
+}
+.faq-wrapper .faq-heading{
+    font-size: 20px;
+    font-weight: 700;
+    /* line-height: 1.5; */
+    margin-bottom: 5px;
+    color: var(--text-light-3);
+}
+.faq-wrapper .faq-title{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 1.25;
+    margin-bottom: 25px;
+    color: var(--text-black);
+}
+.faq-wrapper .accordion-button:hover,
+.faq-wrapper .accordion-button:focus{
+    box-shadow: none;
+    color: var(--text-dark-green);
+}
+.faq-wrapper .accordion-item{
+    border: none;
+}
+.faq-wrapper .accordion-button{
+    font-size: 21px;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    color: var(--text-black);
+    background-color: var(--bg-white);
+    border-radius: 0;
+    padding: 0 0 15px 0;
+    border-bottom: 0px solid var(--text-light-3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.faq-wrapper .accordion-button::after {
+    content: "\002b";
+    background-image: none;
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+}
+.faq-wrapper .accordion-button:not(.collapsed)::after {
+    content: "\f068";
+    background-image: none;
+    font-family: "Font Awesome 5 Free";
+}
+.faq-wrapper .accordion-body{
+    color: var(--text-black);
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+    padding-bottom: 25px;
+    line-height: 1.25;
+}
+
+
+/* 11. footer */
+.footer-wrapper{
+    padding: 100px 0 25px;
+    background-image: url(../images/bg_footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--bg-black);
+    color: var(--text-white);
+}
+.footer-wrapper .footer-logo img{
+    max-width: 30%;
+}
+.footer-wrapper .footer-text,
+.footer-wrapper .footer-text a{
+    margin-top: 30px;
+    color: var(--text-white);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.footer-wrapper .footer-title{
+    font-family: var(--secondary-font);
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: var(--text-white);
+    margin-bottom: 25px;
+}
+.footer-wrapper .footer-social-media-icon{
+    padding-right: 30px;
+    color: var(--text-white);
+    font-size: 20px;
+}
+.footer-wrapper .footer-credits{
+    color: var(--text-white);
+    border-top: 1px solid var(--bg-white);
+    padding-top: 20px;
+    margin-top: 30px;
+}
+.footer-wrapper .footer-credits a{
+    color: var(--text-yellow);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* scroll width */
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+/* scroll track */
+::-webkit-scrollbar-track{
+    background: var(--bg-light-2);
+}
+
+/* scroll handle */
+::-webkit-scrollbar-thumb{
+    background: var(--bg-black);
+}
+
+/* scroll handle on hover */
+::-webkit-scrollbar-thumb:hover{
+    background: var(--bg-dark-green);
+}
